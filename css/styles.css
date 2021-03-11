@@ -10174,7 +10174,7 @@ header.masthead .masthead-heading {
   position: relative;
   display: block;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.55);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
