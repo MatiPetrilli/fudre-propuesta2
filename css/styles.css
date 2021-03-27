@@ -100,6 +100,24 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
+.masthead-title{
+  background-color: black; font-size: 40px;font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-style: italic;
+}
+.masthead-subtitle{
+  background-color: black; font-size: 25px
+}
+#services{
+  text-align: center; color: #fff;background-image: url(../assets/img/header-bg2.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;
+}
+#services .container{
+  height: 70vh
+}
+.line-grey{
+  padding: 2rem 0; background-color: #212529
+}
+.line-grey .container h3{
+  color: white; text-align: center;
+}
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -159,12 +177,12 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #735c3a;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -1921,6 +1939,22 @@ pre code {
   }
 }
 @media (max-width: 767.98px) {
+  #about h3{
+    font-size: 33px!important;
+  }
+  .masthead-title{
+    font-size: 35px!important
+  }
+  .masthead-subtitle {
+    font-size: 20px!important;
+    padding: 10px 20px;
+  }
+  .mobile-wine{
+    width: 50%
+  }
+  #mainNav .navbar-brand img {
+    height: 3rem!important;
+  }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -2014,7 +2048,10 @@ pre code {
   background-color: #e9ecef;
   opacity: 1;
 }
-
+select{
+  color: #6c757d;
+  opacity: 1;
+}
 input[type=date].form-control,
 input[type=time].form-control,
 input[type=datetime-local].form-control,
@@ -2454,8 +2491,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -2558,8 +2595,8 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-warning:hover {
   color: #fff;
@@ -2574,8 +2611,8 @@ fieldset:disabled a.btn {
 }
 .btn-warning.disabled, .btn-warning:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
   color: #fff;
@@ -2677,25 +2714,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #fed136;
-  border-color: #fed136;
+  color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #fed136;
+  color: #735c3a;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -2777,25 +2814,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #fed136;
-  border-color: #fed136;
+  color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-warning:focus, .btn-outline-warning.focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
 }
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-  color: #fed136;
+  color: #735c3a;
   background-color: transparent;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active, .show > .btn-outline-warning.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -2878,7 +2915,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #fed136;
+  color: #735c3a;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3155,7 +3192,7 @@ input[type=button].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #fed136;
+  background-color: #735c3a;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
@@ -3484,8 +3521,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #735c3a;
+  background-color: #735c3a;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
@@ -3540,8 +3577,8 @@ input[type=button].btn-block {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #735c3a;
+  background-color: #735c3a;
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
@@ -3743,7 +3780,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #fed136;
+  background-color: #735c3a;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3772,7 +3809,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #fed136;
+  background-color: #735c3a;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3804,7 +3841,7 @@ input[type=button].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #fed136;
+  background-color: #735c3a;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3925,7 +3962,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #fed136;
+  background-color: #735c3a;
 }
 
 .nav-fill > .nav-link,
@@ -4576,7 +4613,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #fed136;
+  color: #735c3a;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4605,8 +4642,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -4682,7 +4719,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #fed136;
+  background-color: #735c3a;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -4734,7 +4771,7 @@ a.badge-info:focus, a.badge-info.focus {
 
 .badge-warning {
   color: #fff;
-  background-color: #fed136;
+  background-color: #735c3a;
 }
 a.badge-warning:hover, a.badge-warning:focus {
   color: #fff;
@@ -4961,7 +4998,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #fed136;
+  background-color: #735c3a;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5042,8 +5079,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #735c3a;
+  border-color: #735c3a;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6073,7 +6110,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fed136 !important;
+  background-color: #735c3a !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6113,7 +6150,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #fed136 !important;
+  background-color: #735c3a !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -6201,7 +6238,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #fed136 !important;
+  border-color: #735c3a !important;
 }
 
 .border-secondary {
@@ -6217,7 +6254,7 @@ button.bg-dark:focus {
 }
 
 .border-warning {
-  border-color: #fed136 !important;
+  border-color: #735c3a !important;
 }
 
 .border-danger {
@@ -9775,7 +9812,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #735c3a !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9807,7 +9844,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #fed136 !important;
+  color: #735c3a !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
@@ -9815,6 +9852,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
+  display: none;
   color: #dc3545 !important;
 }
 
@@ -9986,7 +10024,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 6rem 1rem;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -9994,7 +10032,8 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading {
-  font-size: 1rem;
+  color:#c5ae8c!important;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10007,12 +10046,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  background: #735c3a;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #735c3a;
   text-shadow: none;
 }
 
@@ -10121,15 +10160,23 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  
+  padding-top: 8rem; 
+  background: black; 
+  padding-bottom: 1px;
+  box-shadow: 1px 6px 22px -2px rgba(0,0,0,0.74);
+  -webkit-box-shadow: 1px 6px 22px -2px rgba(0,0,0,0.74);
+  -moz-box-shadow: 1px 6px 22px -2px rgba(0,0,0,0.74);
+
+  /*padding-top: 10.5rem;
+  padding-bottom: 6rem;*/
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  /*background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover;*/
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10147,10 +10194,10 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
+  /*header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
-  }
+  }*/
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
@@ -10230,22 +10277,39 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover2 {
   opacity: 1;
 }
+#portfolio .portfolio-item .item1 {
+  background-color: #c5ae8c;
+}
+#portfolio .portfolio-item .item2 {
+  background-color: #b8a78e;
+}
+#portfolio .portfolio-item .item3 {
+  background-color: #735c3a;
+}
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #735c3a;
+  /*background-color: #735c3a;*/
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 28px; 
+  margin-bottom: 10px;
+  /*font-size: 1.5rem;*/
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  margin-bottom: 20px;
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+#portfolio .portfolio-item .portfolio-caption p{
+  font-size: 12px
+}
+#portfolio .portfolio-item .portfolio-caption hr{
+  border-top: white solid 1px
+}
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
@@ -10285,7 +10349,38 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
-
+.lateral-border{
+  border-right: white solid 1px;
+}
+.title-wine{
+  font-size: 16px!important; margin-bottom: 0px
+}
+.price-wine{
+  font-size: 20px!important; font-weight: bold; margin-bottom: 0px
+}
+.btn-suscribe{
+  background: #000;font-size: 14px; padding: 10px 30px;
+}
+#about{
+  background: #e4e1de;
+}
+#about h3{
+  color: black; 
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+#about hr{
+  width: 50%; display: block; margin: 40px auto; color: white
+}
+#about .question{
+  color: #735c3a!important; font-size: 22px!important;
+}
+#about .answer{
+  font-size: 14px!important;
+}
 .timeline {
   position: relative;
   padding: 0;
@@ -10343,7 +10438,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #735c3a;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -10468,11 +10563,12 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-    background-color: #212529;
-    background-image: url(../assets/img/wines.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  padding: 0px;
+  background-color: #212529;
+  background-image: url(../assets/img/wines.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 section#contact .section-heading {
   color: #fff;
@@ -10481,10 +10577,11 @@ section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }
 section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
+section#contact form#contactForm .form-group textarea,
+section#contact form#contactForm .form-group select {
+  padding: 1rem;
 }
-section#contact form#contactForm .form-group input.form-control {
+section#contact form#contactForm .form-group input.form-control, section#contact form#contactForm .form-group select.form-control  {
   height: auto;
 }
 section#contact form#contactForm .form-group-textarea {
@@ -10498,7 +10595,7 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #fed136;
+  border-color: #735c3a;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
@@ -10530,6 +10627,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .parallax {
+  text-align: center; color: #fff;
   /* The image used */
   background-image: url("../assets/img/header-bg3.jpg");
 
@@ -10555,4 +10653,48 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding: 30px;
   font-size: 15px;
+}
+option{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+select{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+  font-weight: 700!important;
+  color: #ced4da!important;
+}
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(assets/img/tenor-.gif) center no-repeat #ffffff80;
+}
+.txt-msj{
+  background: #212529bf; padding: 50px 20px;
 }
